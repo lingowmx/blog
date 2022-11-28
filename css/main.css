@@ -42,6 +42,10 @@ header{
     justify-content: space-between;
     justify-self: end;
     margin-right:50px ;
+    transition: 0.2s;
+}
+.icons a:hover{
+    font-size: 18px;
 }
 
 .icons span{
@@ -70,6 +74,10 @@ nav{
 .profile-link a{
     color: black;
     border-bottom: 1px solid black;
+    transition: 0.2s;
+}
+.profile-link a:hover{
+    font-size: 18px;
 }
 
 .home-main{
@@ -91,6 +99,7 @@ nav{
 .home-main-title{
     margin-top: -80px;
     font-family: 'Roboto Mono', monospace;
+    color: white;
 }
 .home-main-title h1{
     text-align: center;
@@ -106,7 +115,14 @@ nav{
     border-radius: 20px;
     background: #48cbaa;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.home-main-button:hover{
+    width: 155px;
+    height: 35px;
+    font-weight:900;
+    font-size: 20px ;
 }
 
 .blogs-main{
@@ -128,6 +144,7 @@ nav{
 .blogs-news-img-container img{
     width: 85%;
     border-radius: 5%;
+    box-shadow: 5px 14px 8px grey
 }
 .blogs-news-info-container{
     grid-column: 2;
@@ -152,6 +169,10 @@ nav{
     border: 1px solid green;
     padding: 10px 15px;
     font-size: 12px;
+    transition: 0.2s;
+}
+.blogs-button:hover{
+    box-shadow: 0px 6px 10px 0px black;
 }
 /* .post-container img{
     width: 120px;
@@ -169,9 +190,12 @@ nav{
 }
 .blogs-posts-container .post-container img{
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     height: auto;
     border-radius: 5%;
+}
+.blogs-posts-container .post-container img:hover{
+    box-shadow: 5px 14px 8px grey
 }
 .grid-container{
     max-width: 980px;
@@ -208,7 +232,7 @@ footer{
 .contact-main-container{
     width: 100%;
     background-color: grey;
-    min-height: 250px;
+    min-height: 200px;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -226,7 +250,11 @@ footer{
     text-align: initial;
     margin-top: 85px;
     margin-left: 12px;
+    /* transition: 0.2s;  Como  hacer que no se muevan los elementos al rededor*/
 }
+/* .contact-left a:hover{
+    font-size: 18px;
+} */
 .contact-main-container img{
     width: 100px;
 }
